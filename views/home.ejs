@@ -1,0 +1,22 @@
+<%- include('partials/header2'); -%>
+
+    <div class="cont">
+
+        <video width="520" height="480" controls="controls" id="video">
+            <source src="videos/video.mp4" type="">
+        </video>
+
+
+        <div class="upload-btn-wrapper">
+            <button class="btn1">Upload a Video</button>
+            <input type="file" name="myfile" accept="video/*" id="upload" onchange="upload()" />
+        </div>
+
+    </div>
+
+
+    <!-- VIDEO WILL BE UPLOADED HERE -->
+    <%- include('partials/footer'); -%>
+
+        <script src="js/uploadVideo.js"></script>
+        <link rel="stylesheet" href="css/videoUpload.css">

@@ -1,0 +1,22 @@
+<%- include('partials/header1') -%>
+    <form>
+        <h2>Sign up</h2>
+
+        <!-- EMAIL -->
+        <label for="email">Email</label>
+        <input type="text" name="email" required>
+        <div class="error email"></div>
+
+        <!-- PASSWORD -->
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+        <div class="error password"></div>
+
+        <!-- BUTTON FOR SIGNUP -->
+        <button>Sign up</button>
+
+    </form>
+    <%- include('partials/footer') -%>
+
+
+        <script type="application/javascript" src="/js/signUp.js"></script>

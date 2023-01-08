@@ -1,0 +1,39 @@
+.cont {
+  padding: 20px;
+  margin: 3px;
+  text-align: center;
+}
+
+video {
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.btn2 {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn1 {
+  margin-left: 570px;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
